@@ -6,7 +6,7 @@ public class FelidaeFamily extends Animal {
         System.out.println("meowing meowing");
     }
 
-    public FelidaeFamily(int age, double weight, boolean running, boolean eating, String sound) {
+    public FelidaeFamily(int age, double weight, boolean running, boolean eating) {
         super(age, weight, running, eating);
     }
 }
